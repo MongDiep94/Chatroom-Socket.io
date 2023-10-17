@@ -15,7 +15,7 @@ const ChatFooter = ({socket}) => {
       });
     }
     setMessage('');
-    console.log(message)
+    console.log(message, socket.id)
   };
   return (
     <div className="chat__footer">

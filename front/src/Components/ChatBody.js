@@ -1,7 +1,8 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const ChatBody = ({messages}) => {
+
+  console.log(messages);
   const navigate = useNavigate();
   const handleLeaveChat = () => {
     localStorage.removeItem('userName');
